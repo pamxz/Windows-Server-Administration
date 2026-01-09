@@ -24,7 +24,7 @@ Windows Server Disk .iso image from Microsoft’s website or bootable media with
     o **Typical (recommended)** → Next
 
 4. Select: **Installer disc image file (iso)** → Browse to your Windows Server 2022.iso
-![1] /Windows-Server-Administration/Initial Config/Screenshot(143).png
+![1] (../Screenshot(143).png)
 
 5. Add Licensing key (if its available) and select the version of windows server to be installed
     based on requirements. Click Next
