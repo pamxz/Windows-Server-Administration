@@ -41,12 +41,13 @@ Windows Server Disk .iso image from Microsoft’s website or bootable media with
 **6. Name the Virtual Machine**
     o Enter a name (e.g., WindowsServer2022)
     o Choose a location to store the VM files
-    o Click **Next
-7. Specify Disk Capacity**
+    o Click **Next**
+    
+**7. Specify Disk Capacity**
     o Set disk size (e.g., **60 GB or more** , depending on requirements)
     o Select **Store virtual disk as a single file** (better performance)
-    o Click **Next
-8. Customize Hardware (Optional but Recommended)**
+    o Click **Next**
+**8. Customize Hardware (Optional but Recommended)**
     o Click **Customize Hardware** :
     o **Memory** : 4 GB minimum (8 GB or more recommended)
     o **Processors** : At least 2 cores
