@@ -35,7 +35,7 @@ the following minimum requirements:
    - **Installer disc image file (ISO)**
    - Browse and select your **Windows Server 2022 ISO**
 
-   ![1](Screenshot%20(143).png)
+   ![vm](Screenshot%20(143).png)
 
 5. Add a **license key** (if available) and select the appropriate **Windows Server edition**
    based on your requirements, then click **Next**
