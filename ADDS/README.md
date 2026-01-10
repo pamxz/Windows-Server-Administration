@@ -8,10 +8,9 @@ This guide provides step-by-step instructions for installing and configuring **A
 
 Before you begin, ensure the following requirements are met:
 
-- A **Windows Server 2022** machine
 - **Administrator privileges**
 - A **static IP address** configured on the server  
-  *(Refer to the previous guide on setting a static IP address)*
+  *(Check the Inital Config file to make necessary settings)*
 - **DNS server** available (can be installed during AD DS setup)
 
 ---
@@ -27,13 +26,13 @@ Before you begin, ensure the following requirements are met:
 - Select **Add Roles and Features**
 - The **Add Roles and Features Wizard** will open
 
-> 📸 *Image*
+> 📸[1](https://github.com/pamxz/Windows-Server-Administration/blob/866ac42d5f8524e9abe038793ab2969354683ad5/ADDS/Screenshot%20(572).png)
 
 ### 3. Select Installation Type
 - Choose **Role-based or feature-based installation**
 - Click **Next**
 
-> 📸 *Image*
+> 📸 [2](https://github.com/pamxz/Windows-Server-Administration/blob/866ac42d5f8524e9abe038793ab2969354683ad5/ADDS/Screenshot%20(573).png)
 
 ### 4. Select Destination Server
 - Ensure the current server is selected
@@ -43,7 +42,7 @@ Before you begin, ensure the following requirements are met:
 - Check **Active Directory Domain Services**
 - When prompted, click **Add Features**
 
-> 📸 *Image*
+> 📸 [3](https://github.com/pamxz/Windows-Server-Administration/blob/866ac42d5f8524e9abe038793ab2969354683ad5/ADDS/Screenshot%20(2172).png)
 
 - Click **Next**
 
@@ -59,7 +58,7 @@ Before you begin, ensure the following requirements are met:
 - Review your selections
 - Click **Install**
 
-> 📸 *Image*
+> 📸 
 
 ⏳ The installation may take a few minutes.  
 ⚠️ **Do not close the wizard** — you will need it to promote the server to a domain controller.
@@ -71,14 +70,14 @@ Before you begin, ensure the following requirements are met:
 ### 1. Promote to Domain Controller
 - Click **Promote this server to a domain controller**
 
-> 📸 *Image*
+> 📸 [4](https://github.com/pamxz/Windows-Server-Administration/blob/866ac42d5f8524e9abe038793ab2969354683ad5/ADDS/Screenshot%20(575).png)
 
 ### 2. Deployment Configuration
 - Select **Add a new forest**
 - Enter your **Root domain name** (e.g., `example.com`)
 - Click **Next**
 
-> 📸 *Image*
+> 📸 [5](https://github.com/pamxz/Windows-Server-Administration/blob/866ac42d5f8524e9abe038793ab2969354683ad5/ADDS/Screenshot%20(576).png)
 
 ### 3. Domain Controller Options
 - Set **Forest functional level** and **Domain functional level**  
@@ -87,7 +86,7 @@ Before you begin, ensure the following requirements are met:
 - Enter a **Directory Services Restore Mode (DSRM)** password
 - Click **Next**
 
-> 📸 *Image*
+> 📸 [6](https://github.com/pamxz/Windows-Server-Administration/blob/866ac42d5f8524e9abe038793ab2969354683ad5/ADDS/Screenshot%20(2242).png)
 
 ### 4. DNS Options
 - A DNS delegation warning may appear
@@ -110,7 +109,7 @@ Before you begin, ensure the following requirements are met:
 ### 8. Install AD DS
 - Once all prerequisite checks pass, click **Install**
 
-> 📸 *Image*
+> 📸 [7](https://github.com/pamxz/Windows-Server-Administration/blob/866ac42d5f8524e9abe038793ab2969354683ad5/ADDS/Screenshot%20(577).png)
 
 🔁 The server will **automatically restart** after installation completes.
 
@@ -139,15 +138,4 @@ After the reboot:
   The Domain Controller now also functions as a DNS server for the domain.
 
 ---
-
-## Conclusion
-
-You have successfully installed and configured **Active Directory Domain Services (AD DS)** on **Windows Server 2022**.  
-Your server is now a **Domain Controller**, capable of managing:
-
-- User and computer accounts
-- Permissions and access control
-- Group Policies and security settings
-
-🚀 This setup forms the foundation for centralized identity and access management in an enterprise environment.
 
