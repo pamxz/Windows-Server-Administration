@@ -105,6 +105,10 @@ the following minimum requirements:
    - DNS server(s)
 
 > Use a properly allocated subnet specific to the server environment.
+![image alt4](https://github.com/pamxz/Windows-Server-Administration/blob/5234840caf04a2ed777c7e604384fcc9a7e55689/Initial_Config/2.png)
+
+![image alt5](https://github.com/pamxz/Windows-Server-Administration/blob/5234840caf04a2ed777c7e604384fcc9a7e55689/Initial_Config/3.png)
+
 
 ---
 
@@ -135,3 +139,6 @@ administrative tasks.
    - Click **Manage another account**
    - Select the **Administrator** account
    - Configure and set a secure **Administrator password**
+![image alt6](https://github.com/pamxz/Windows-Server-Administration/blob/5234840caf04a2ed777c7e604384fcc9a7e55689/Initial_Config/4.png)
+
+![image alt7](https://github.com/pamxz/Windows-Server-Administration/blob/5234840caf04a2ed777c7e604384fcc9a7e55689/Initial_Config/5.png)
