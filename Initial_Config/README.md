@@ -4,6 +4,7 @@ This documentation provides a straightforward guide to installing and configurin
 Windows Server roles and features for managing users and computers within a network
 environment.
 
+
 ---
 
 ## Prerequisites
@@ -42,6 +43,7 @@ the following minimum requirements:
 
 ---
 
+![image_alt2](https://github.com/pamxz/Windows-Server-Administration/blob/e5d4a615eb6b464ad9d4b426f1b6968844d5b580/Initial_Config/Screenshot%20(144).png)
 ### 6. Name the Virtual Machine
 
 - Enter a name (e.g., **WindowsServer2022**)
@@ -67,6 +69,7 @@ the following minimum requirements:
   - **Network Adapter**: NAT or Bridged (depending on whether the server should be accessible on the local network)
 - Click **Finish** when done
 
+![image alt3](https://github.com/pamxz/Windows-Server-Administration/blob/e5d4a615eb6b464ad9d4b426f1b6968844d5b580/Initial_Config/Screenshot%20(148).png)
 ---
 
 ### 9. Finish Setup
