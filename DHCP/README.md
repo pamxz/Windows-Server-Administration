@@ -17,7 +17,7 @@ This guide provides step-by-step instructions for setting up a DHCP (Dynamic Hos
 3. In the **Add Roles and Features Wizard**, click **Next** until you reach the **Select Server Roles** page.
 4. Check **DHCP Server** and click **Next**.
 
- ![1](DHCP/Screenshot (578).png)
+ ![1](https://github.com/pamxz/Windows-Server-Administration/blob/8b02024da9ea6a62c62263c912680cc9c9e00daa/DHCP/Screenshot%20(578).png)
 
 5. Proceed through the wizard, confirming selections by clicking on **Add features**, and click **Install**.
 
