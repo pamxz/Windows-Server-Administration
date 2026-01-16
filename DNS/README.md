@@ -111,9 +111,9 @@ A **pointer (PTR)** record is important because it maps an IP address back to a 
 
 ### 5.2: Test Reverse Lookup
 
-1. In **Command Prompt**, type the following command (replace `192.168.1.100` with an IP in your reverse zone):
+1. In **Command Prompt**, type the following command (replace `192.168.10.2` with an IP in your reverse zone):
    ```
-   nslookup 192.168.1.100
+   nslookup 192.168.10.2
    ```
 2. You should receive the associated domain name for that IP address (e.g., `www.example.com`).
 
