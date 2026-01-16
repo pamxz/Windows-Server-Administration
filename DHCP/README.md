@@ -17,10 +17,13 @@ This guide provides step-by-step instructions for setting up a DHCP (Dynamic Hos
 3. In the **Add Roles and Features Wizard**, click **Next** until you reach the **Select Server Roles** page.
 4. Check **DHCP Server** and click **Next**.
 
- 
+ ![1](https://github.com/pamxz/Windows-Server-Administration/blob/43f7940c9153923228a3a519afc932434126fd6a/DHCP/Screenshot%20(578).png)
 
 5. Proceed through the wizard, confirming selections by clicking on **Add features**, and click **Install**.
-6. Once installation is complete, click **Close**.
+
+  ![2](https://github.com/pamxz/Windows-Server-Administration/blob/43f7940c9153923228a3a519afc932434126fd6a/DHCP/Screenshot%20(579).png)
+
+7. Once installation is complete, click **Close**.
 
 
 
@@ -30,16 +33,14 @@ This guide provides step-by-step instructions for setting up a DHCP (Dynamic Hos
 
 1. In **Server Manager**, click the **Notifications** flag at the top, then select **Complete DHCP configuration**.
 
-
+![3](https://github.com/pamxz/Windows-Server-Administration/blob/43f7940c9153923228a3a519afc932434126fd6a/DHCP/Screenshot%20(581).png)
 
 
 2. In the **DHCP Post-Install Configuration Wizard**, select **Commit** to authorize the DHCP server.
 
-
-
-
 3. Click **Close** to finish the configuration.
 
+![4](https://github.com/pamxz/Windows-Server-Administration/blob/f8824d84afcf89b70413c7b50954e2de5301ae80/DHCP/Screenshot%20(583).png)
 ---
 
 ## Step 3: Open DHCP Management Console
@@ -47,7 +48,7 @@ This guide provides step-by-step instructions for setting up a DHCP (Dynamic Hos
 1. In **Server Manager**, go to **Tools** and select **DHCP**.
 
 
-
+![5](https://github.com/pamxz/Windows-Server-Administration/blob/0ce04a78afef38924e45626769c781bf4c588596/DHCP/Screenshot%20(589).png)
 
 2. Expand your server’s name and locate **IPv4** under the server node.
 
@@ -57,7 +58,7 @@ This guide provides step-by-step instructions for setting up a DHCP (Dynamic Hos
 
 1. Right-click **IPv4** and select **New Scope**.
 
-
+![6](https://github.com/pamxz/Windows-Server-Administration/blob/0ce04a78afef38924e45626769c781bf4c588596/DHCP/Screenshot%20(585).png)
 
 
 2. In the **New Scope Wizard**, enter a **Name** and **Description** for the scope, then click **Next**.
@@ -65,8 +66,7 @@ This guide provides step-by-step instructions for setting up a DHCP (Dynamic Hos
 4. Click **Next**.
 
 
-
-
+![7](https://github.com/pamxz/Windows-Server-Administration/blob/0ce04a78afef38924e45626769c781bf4c588596/DHCP/Screenshot%20(586).png)
 
 ---
 
@@ -77,15 +77,12 @@ This guide provides step-by-step instructions for setting up a DHCP (Dynamic Hos
 - Click **Next**.
 
 
-
-
 ## Step 5: Set Lease Duration
 
 1. Choose the **Lease Duration** (the default is 8 days).
 2. Click **Next**.
 
-
-
+![8](https://github.com/pamxz/Windows-Server-Administration/blob/0ce04a78afef38924e45626769c781bf4c588596/DHCP/Screenshot%20(587).png)_
 ---
 
 ## Step 6: Configure DHCP Options
@@ -98,7 +95,7 @@ This guide provides step-by-step instructions for setting up a DHCP (Dynamic Hos
 
 3. Enter the **Domain Name** and **DNS Servers**. The DNS server should be the IP address of your DNS server (e.g., `192.168.1.2`). Click **Next**.
 
-
+![9](https://github.com/pamxz/Windows-Server-Administration/blob/0ce04a78afef38924e45626769c781bf4c588596/DHCP/Screenshot%20(588).png)
 
 4. If you use WINS, configure the **WINS Servers**; otherwise, click **Next**.
 
