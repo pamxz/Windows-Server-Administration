@@ -1,10 +1,10 @@
-# How to Install and Set Up IIS on Windows Server 2022
+# Installation and Set Up of IIS on Windows Server
 
-This guide walks you through the steps to **install** and **set up** **IIS (Internet Information Services)** on **Windows Server 2022**.
+This guide walks you through the steps to **install** and **set up** **IIS (Internet Information Services)** on **Windows Server**.
 
 ## Prerequisites
 
-- A **Windows Server 2022** machine with **administrator privileges**.
+- A **Windows Server** machine with **administrator privileges**.
 - A basic understanding of **web servers** and **IIS**.
 
 ---
@@ -32,7 +32,7 @@ This guide walks you through the steps to **install** and **set up** **IIS (Inte
    - Click **Next**.
 
 
-![image](https://github.com/user-attachments/assets/51d91980-e049-4259-a167-b932454bddb8)
+![1](https://github.com/pamxz/Windows-Server-Administration/blob/637be2248d5a8a4ceebbe341a507f2c3fb31dad1/IIS/Screenshot%20(615).png)
 
 
 7. **Select Features**:
@@ -41,17 +41,16 @@ This guide walks you through the steps to **install** and **set up** **IIS (Inte
 8. **Select Role Services**:
    - In the **Select role services** section, you can choose specific IIS services you want to install. The default options are generally sufficient. For a basic IIS installation, leave the default selections and click **Next**.
 
+![2](https://github.com/pamxz/Windows-Server-Administration/blob/637be2248d5a8a4ceebbe341a507f2c3fb31dad1/IIS/Screenshot%20(616).png)
+
 9. **Confirm Installation**:
    - Review your selections and click **Install** to start the installation process.
    - The installation may take a few minutes to complete.
-
-![image](https://github.com/user-attachments/assets/3f528e2b-1e53-4dab-85ba-298d4d69f094)
+  
+![3](https://github.com/pamxz/Windows-Server-Administration/blob/637be2248d5a8a4ceebbe341a507f2c3fb31dad1/IIS/Screenshot%20(617).png)
 
 10. **Complete the Installation**:
     - Once the installation is complete, click **Close**.
-
-![image](https://github.com/user-attachments/assets/7c58d78d-efb8-4ba9-8190-e8f1377c6a63)
-
 ---
 
 ## Step 2: Verify IIS Installation
@@ -60,20 +59,17 @@ This guide walks you through the steps to **install** and **set up** **IIS (Inte
    - To confirm IIS was installed successfully, click the **Start** button and search for **IIS Manager**.
    - Open the **Internet Information Services (IIS) Manager** application.
 
-![image](https://github.com/user-attachments/assets/61ce1a2a-3711-4c07-a486-0a46318a590d)
-
-
 2. **Verify IIS Server is Running**:
    - In **IIS Manager**, under **Connections**, you should see your server name listed. This confirms that IIS is installed and running.
 
 
-![image](https://github.com/user-attachments/assets/7f382dff-abad-425b-8b24-084bfa5623b3)
+![4](https://github.com/pamxz/Windows-Server-Administration/blob/637be2248d5a8a4ceebbe341a507f2c3fb31dad1/IIS/Screenshot%20(618).png)
 
 3. **Test IIS**:
    - Open a web browser and type `http://localhost` in the address bar. You should see the **IIS Welcome Page**, which confirms that the web server is up and running.
 
 
-![image](https://github.com/user-attachments/assets/6e8a1f2b-ec19-4708-a694-f83d4501e491)
+![5](https://github.com/pamxz/Windows-Server-Administration/blob/637be2248d5a8a4ceebbe341a507f2c3fb31dad1/IIS/Screenshot%20(619).png)
 
 ---
 ## Step 3: Configure Firewall (Optional)
