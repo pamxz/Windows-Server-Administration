@@ -49,7 +49,7 @@ Once the GPMC is open, you can create a new GPO.
    - Click **OK** to create the new GPO.
 
 
-![3](https://github.com/pamxz/Windows-Server-Administration/blob/09cae7dfd5827243a00f4b62c534e6aeb0738d8f/GPO/Screenshot%20(607).png)
+![3](https://github.com/pamxz/Windows-Server-Administration/blob/09cae7dfd5827243a00f4b62c534e6aeb0738d8f/GPO/Screenshot%20(608).png)
 
 ---
 
