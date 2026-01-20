@@ -14,9 +14,7 @@ This guide provides step-by-step instructions on how to add users in **Active Di
 - In **Server Manager**, click **Tools** (top-right corner)
 - Select **Active Directory Users and Computers**
 
-![]()
-
----
+![1](https://github.com/pamxz/Windows-Server-Administration/blob/b564f841315edadea073c25aa5dc8ca613eb8c8a/ADDS%20OBJECTS/Screenshot%20(628).png)
 
 ## Step 2: Navigate to the Organizational Unit (OU)
 
@@ -28,9 +26,7 @@ This guide provides step-by-step instructions on how to add users in **Active Di
 - Right-click the target OU (e.g., **Users**)
 - Select **New > User**
 
-![Navigate to OU](image)
-
----
+![2](https://github.com/pamxz/Windows-Server-Administration/blob/b564f841315edadea073c25aa5dc8ca613eb8c8a/ADDS%20OBJECTS/Screenshot%20(630).png)
 
 ## Step 3: Create a New User Account
 
@@ -45,7 +41,7 @@ In the **New Object – User** dialog, fill in the following:
 
 Click **Next** to continue.
 
-![Enter User Details](image)
+![3](https://github.com/pamxz/Windows-Server-Administration/blob/b564f841315edadea073c25aa5dc8ca613eb8c8a/ADDS%20OBJECTS/Screenshot%20(631).png)
 
 ---
 
@@ -60,24 +56,12 @@ Click **Next** to continue.
 
 Click **Next**.
 
-![Set Password](image)
-
----
+![4](https://github.com/pamxz/Windows-Server-Administration/blob/b564f841315edadea073c25aa5dc8ca613eb8c8a/ADDS%20OBJECTS/Screenshot%20(632).png)
 
 ### Finish
 
 - Review the configuration details
 - Click **Finish** to create the user account
-
-![Finish User Creation](image)
-
----
-
-## Summary
-
-You have successfully created a new user account in **Active Directory on Windows Server 2022**.  
-The user can now log in to the domain based on the assigned permissions and policies.
-
 ---
 
 ## Notes (Best Practice)
@@ -93,13 +77,6 @@ The user can now log in to the domain based on the assigned permissions and poli
 
 This guide walks you through the steps to create groups on **Windows Server 2022**.  
 Groups are essential for organizing users and efficiently assigning permissions.
-
----
-
-## Prerequisites
-
-- A Windows Server 2022 machine with **administrator privileges**
-- Basic knowledge of **Active Directory** and **user management**
 
 ---
 
@@ -124,11 +101,7 @@ Once inside the **Active Directory Users and Computers** console, follow these s
 ### Navigate to the Organizational Unit (OU)
 - Locate the **Organizational Unit (OU)** (e.g., `Finance`) where you want to create the group
 - Right-click the OU and select **New > Group**
-
-![Create New Group](image)
-
 ---
-
 ### Enter Group Information
 
 In the **New Object – Group** window, configure the following:
@@ -144,7 +117,7 @@ In the **New Object – Group** window, configure the following:
 
 Click **OK** to create the group.
 
-![Group Information](image)
+![3](https://github.com/pamxz/Windows-Server-Administration/blob/b564f841315edadea073c25aa5dc8ca613eb8c8a/ADDS%20OBJECTS/Screenshot%20(634).png)
 
 ---
 
@@ -158,9 +131,6 @@ After creating the group, add users or other groups as members.
 ### Open Group Properties
 - Right-click the group
 - Select **Properties**
-
-![Group Properties](image)
-
 ---
 
 ### Add Members
@@ -169,7 +139,7 @@ After creating the group, add users or other groups as members.
 - Enter the names of users or groups to add
 - Click **OK**
 
-![Add Members](image)
+![5](https://github.com/pamxz/Windows-Server-Administration/blob/b564f841315edadea073c25aa5dc8ca613eb8c8a/ADDS%20OBJECTS/Screenshot%20(636).png)
 
 ---
 
@@ -177,25 +147,13 @@ After creating the group, add users or other groups as members.
 - Click **Apply**
 - Click **OK** to save the configuration
 
-![Save Changes](image)
-
 ---
 # How to Create Organizational Units (OUs) on Windows Server 2022
 
 This guide walks you through the steps to create **Organizational Units (OUs)** on **Windows Server 2022** using the **Active Directory Users and Computers (ADUC)** tool.
 
 ---
-
-## Prerequisites
-
-- Windows Server 2022 with **Active Directory Domain Services (AD DS)** installed
-- **Administrator privileges** to manage Active Directory
-- Basic understanding of **Active Directory** and **Organizational Units (OUs)**
-
----
-
 ## Step 1: Open Active Directory Users and Computers (ADUC)
-
 ### Open Server Manager
 - Click the **Start** button
 - Open **Server Manager**
@@ -205,7 +163,7 @@ This guide walks you through the steps to create **Organizational Units (OUs)** 
 - Select **Active Directory Users and Computers** from the dropdown  
   This opens the ADUC management console
 
-![Open ADUC](image)
+![6](https://github.com/pamxz/Windows-Server-Administration/blob/b564f841315edadea073c25aa5dc8ca613eb8c8a/ADDS%20OBJECTS/Screenshot%20(637).png)
 
 ---
 
@@ -219,14 +177,6 @@ This guide walks you through the steps to create **Organizational Units (OUs)** 
   - **Computers**
   - **Domain Controllers**
 
-### Select the Parent Container
-- Right-click the **domain name** or an existing container where you want the new OU
-- Select **New > Organizational Unit**
-
-![Select Parent Container](image)
-
----
-
 ## Step 3: Create the Organizational Unit (OU)
 
 ### Define the OU Name
@@ -239,19 +189,14 @@ This guide walks you through the steps to create **Organizational Units (OUs)** 
 
 Click **OK** to create the OU.
 
-![Create OU](image)
-
-> 🔁 Repeat this process to create as many OUs as needed.
+![7](https://github.com/pamxz/Windows-Server-Administration/blob/044a5432f76591bd20e12ffa99e6e9a451145896/ADDS%20OBJECTS/Screenshot%20(638).png)
 
 ---
-
 ## Step 4: Verify the OU Creation
 
 ### Check the New OU
 - Expand your domain or parent container
 - Confirm the new OU appears in the list
-
-![Verify OU](image)
 
 ### View OU Properties
 - Right-click the new OU
@@ -260,7 +205,6 @@ Click **OK** to create the OU.
   - Delegation of control
   - Security permissions
   - Object management options
-
 
 ---
 
@@ -274,10 +218,6 @@ Click **OK** to create the OU.
 
 ---
 
-## Summary
-
-You have successfully created and verified **Organizational Units (OUs)** in **Active Directory on Windows Server 2022**.  
-OUs help organize objects, delegate administration, and apply Group Policies efficiently.
 
 ---
 
